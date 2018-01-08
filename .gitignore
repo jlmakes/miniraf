@@ -1,0 +1,6 @@
+.DS_Store
+.ignore/
+node_modules/
+yarn.lock
+package-lock.json
+dist/
