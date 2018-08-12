@@ -1,6 +1,6 @@
 {
 	"name": "miniraf",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "ES2015 module to polyfill requestAnimationFrame",
 	"main": "dist/miniraf.js",
 	"module": "dist/miniraf.es.js",
@@ -21,7 +21,12 @@
 		"testing": "npm test -- --no-single-run"
 	},
 	"repository": "jlmakes/miniraf",
-	"keywords": ["html", "element", "dom", "node"],
+	"keywords": [
+		"html",
+		"element",
+		"dom",
+		"node"
+	],
 	"devDependencies": {
 		"chai": "^4.1.2",
 		"eslint": "^4.10.0",
