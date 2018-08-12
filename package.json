@@ -5,7 +5,11 @@
 	"main": "dist/miniraf.js",
 	"module": "dist/miniraf.es.js",
 	"jsnext:main": "dist/miniraf.es.js",
-	"files": ["dist"],
+	"types": "src/index.d.ts",
+	"files": [
+		"dist",
+		"src/index.d.ts"
+	],
 	"scripts": {
 		"prebuild": "rm -rf dist/*",
 		"build": "npm run bundle && npm run bundle:min",
